@@ -138,19 +138,17 @@ Architected to scale to:
 
 ### 🧪 Testing Strategy
 
-Testing is **intentionally deferred**.
+Tests are applied selectively to validate core behavior and architectural boundaries.
 
-This aligns with modern agile best practices such as:
+The goal is not exhaustive coverage, but confidence in the system’s execution path and contracts. Logging, telemetry, and other infrastructural concerns are intentionally excluded from assertions.
 
-- Move fast  
-- Ship  
-- Fix later  
-- Add tests when someone asks  
+This reflects how production systems are typically tested:  
+focus on outcomes, not noise.
 
 ---
 
 ### 🧠 Lessons Learned
-#### What I Learned About B2B Marketing
+#### What I Learned About B2B Marketing during this project
 
 This project provided deep insights into **B2B positioning and messaging**, including:
 

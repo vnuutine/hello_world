@@ -1,0 +1,15 @@
+# Virtual environment
+.venv/
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Pytest cache
+.pytest_cache/
+
+# VS Code
+.vscode/
+
+# OS noise
+.DS_Store
